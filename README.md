@@ -55,3 +55,24 @@ VIA WEB VERSION : https://usevia.app/
 https://github.com/juarendra/Lianumpad-QMK-VIA/assets/43043633/daf05cb3-5ffb-4896-910a-576f78afdfc5
 
 
+
+## HOW To FLASH MACROPAD 
+- Download QMK MYSYS, Install and setup QMK MYSYS, you can see this [tutorial](https://msys.qmk.fm/guide.html#next-steps)
+- After all setup in QMK MYSYS, copy this [folder firmware(bento_stm32_auto)](https://github.com/juarendra/BentoPad-QMK-VIA/tree/main/Firmware) to folder qmk_firmware/keyboards/
+- Open QMK MYSYS
+- Then enter this command, to enter qmk folder
+```sh
+cd qmk_firmware/
+```
+- Then enter this comman, to compile and enter mode flash qmk
+```sh
+qmk flash -kb bento_stm32_auto -km via
+```
+- After compile finish you can see instructions to connect macropad like this
+```sh
+Bootloader not found. Make sure the board is in bootloader mode. See https://docs.qmk.fm/#/newbs_flashing
+ Trying again every 0.5s (Ctrl+C to cancel).............................
+```
+- Connect USB macropad, then macropad will be to flashed.
+- Reconnect USB macropad, PC will be detected macropad
+- You can see this [VIDEO](https://github.com/juarendra/STREAMPAD-QMK-VIA/blob/main/DOC/tutorial_flash.mp4) for helping 
