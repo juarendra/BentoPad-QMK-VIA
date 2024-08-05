@@ -14,6 +14,7 @@ this Device can automatically detect on VIA, just need PC with Intercet Connecti
 - Connect your macropad to PC
 - Open VIA
 - It will auto detect
+
 ## Load JSON File
 or you can load manually json file like a library for detect this macropad
 - Connect your macropad to PC
@@ -49,6 +50,11 @@ Here's some examples:
 ## Download VIA
 Link Download VIA(Pilih sesuai OS) : https://github.com/the-via/releases/releases
 VIA WEB VERSION : https://usevia.app/
+
+## Pinout Wiring 
+<p align="center">
+  <img src="DOC/bentopad_pinout.png" width="50%" height="50%">
+</p>
 
 ## Preview VIA
 
