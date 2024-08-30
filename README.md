@@ -62,7 +62,26 @@ https://github.com/juarendra/Lianumpad-QMK-VIA/assets/43043633/daf05cb3-5ffb-489
 
 
 
-## HOW To FLASH MACROPAD 
+## HOW To FLASH MACROPAD
+### USING QMK TOOLBOX
+- Prepare the macropad, USB cable and firmware that you want to update/upgrade to your macropad
+- Download QMK Toolbox Software at [following link](https://github.com/qmk/qmk_toolbox/releases)
+- Install QMK Toolbox Software, Install All the drivers. After ready you can load the previous Firmware. Then Check Auto-Flash as shown below
+<p align="center">
+  <img src="DOC/QMK Tollbox Awal.PNG" width="50%" height="50%">
+</p>
+
+- Plug the USB Type C cable into the macropad without plugging it into your PC USB first
+- Press and hold button no. 1 as shown in the picture. then plug the previous USB end into your PC USB while still holding the previous button for a moment
+- After there is a sound/notification that the USB has entered. you can release the knob button
+<p align="center">
+  <img src="DOC/bentopad_pinout_1.png" width="50%" height="50%">
+</p>
+
+- Then the macropad will automatically flash. you can watch the following video for more help
+[link VIDEO](https://github.com/juarendra/BentoPad-QMK-VIA/blob/main/DOC/WhatsApp%20Video%202024-08-30%20at%2021.38.20.mp4)
+
+### USING QMK MYSYS
 - Download QMK MYSYS, Install and setup QMK MYSYS, you can see this [tutorial](https://msys.qmk.fm/guide.html#next-steps)
 - After all setup in QMK MYSYS, copy this [folder firmware(bento_stm32_auto)](https://github.com/juarendra/BentoPad-QMK-VIA/tree/main/Firmware) to folder qmk_firmware/keyboards/
 - Open QMK MYSYS
